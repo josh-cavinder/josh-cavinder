@@ -1,0 +1,21 @@
+{% assign banner_animation = "" %}
+{% if page.url == '/' %}
+  {% assign banner_animation = "uk-scrollspy='target: > div;cls:uk-animation-fade; delay:500;'" %}
+{% endif %}
+
+<header>
+  <div class="uk-background-secondary uk-padding-small uk-padding-remove-horizontal">
+    <div class="uk-container uk-flex uk-flex-between uk-flex-middle uk-visible@s">
+      <p class="uk-margin-remove uk-link-text">
+        <a href="/contact">josh.<span class="uk-hidden">NOSPAM</span>cavinder.<span class="uk-hidden">NOSPAM</span>@<span class="uk-hidden">NOSPAM</span>gmail<span class="uk-hidden">NOSPAM</span>.com</a> |
+        <a href="/contact">(937)<span class="uk-hidden">NOSPAM</span> 538<span class="uk-hidden">NOSPAM</span> 0547</a>
+      </p>
+      {% include icon-nav.html %}
+    </div>
+  </div>
+  <div uk-sticky class="uk-background-white uk-box-shadow-small">
+    <div class="uk-container">
+      {% include nav.html %}
+    </div>
+  </div>
+</header>

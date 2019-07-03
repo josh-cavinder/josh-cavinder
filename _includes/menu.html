@@ -1,0 +1,3 @@
+{% for item in site.menus.primary %}
+  <li><a class="{{item.class}}" href="{{ item.url }}" {{item.attr}}>{{ item.title }}</a></li>
+{% endfor %}
