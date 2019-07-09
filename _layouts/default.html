@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
+
   {% include head.html %}
-  <body class="uk-background-muted">
+
+
+    <body id="page-top" class="index">
+
     {% include header.html %}
-    {% include banner.html %}
-    <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
-      <div uk-grid>
-        <div class="uk-width-expand uk-margin-top">
-          {{ content }}
-        </div>
-      </div>
-    </div>
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include team.html %}
+    {% include clients.html %}
+    {% include contact.html %}
     {% include footer.html %}
-    {% include offcanvas.html %}
-    {% include scripts.html %}
-  </body>
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
 </html>
