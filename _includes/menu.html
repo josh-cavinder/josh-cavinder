@@ -1,3 +1,5 @@
-{% for item in site.menus.primary %}
-  <li><a class="{{item.class}}" href="{{ item.url }}" {{item.attr}}>{{ item.title }}</a></li>
+{% for item in site.data.menu--data.menu %}
+  <li class="{% if item.url == page.url %}active{% endif %}">
+    <a class="{{ item.class }}" href="{{ item.url }}" {{ item.attribute }}>{{ item.title }}</a>
+  </li>
 {% endfor %}
