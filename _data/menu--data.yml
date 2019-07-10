@@ -17,3 +17,4 @@ menu:
   - title: Resume
     url: "/resume/"
     weight: 5
+    attribute: "target='_blank'"
