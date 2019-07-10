@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Variables"
-date:   2019-07-09 18:49:10 -0400
-categories: jekyll variables
+featured_image: ""
+date:   2019-07-09 17:56:10 +0000
+tags:
+- jekyll
+- draft
 ---
 
 You can use the below variables to pull from numerous sources within the site:

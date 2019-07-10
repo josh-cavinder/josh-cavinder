@@ -1,0 +1,7 @@
+{% for item in site.menus.primary %}
+  {% if item.class %}
+    <li><a class="{{ item.class }}" href="{{ item.url }}" {{ item.attr }}>{{ item.title }}</a></li>
+  {% else %}
+    <li><a class="uk-text-uppercase uk-text-left" href="{{ item.url }}" {{ item.attr }}>{{ item.title }}</a></li>
+  {% endif %}
+{% endfor %}

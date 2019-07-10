@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body class="uk-background-muted">
+    {% include header.html %}
+    {% include banner.html %}
+    <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
+      <div uk-grid>
+        <div class="uk-width-expand uk-margin-top">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include offcanvas.html %}
+    {% include scripts.html %}
+  </body>
+</html>
