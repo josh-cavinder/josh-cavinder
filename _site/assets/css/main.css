@@ -1,0 +1,17 @@
+/*
+ * CUSTOM
+ */
+.uk-background-white {
+  background-color: #FFF;
+}
+
+
+/*
+ * NAVIGATION
+ */
+.uk-navbar-nav > li.active > a,
+.uk-nav > li.active > a,
+.uk-navbar-nav > li > a:hover,
+.uk-nav > li > a:hover {
+  color: red;
+}
