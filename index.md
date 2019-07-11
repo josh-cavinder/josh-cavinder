@@ -4,6 +4,8 @@
 
 layout: home
 title: "Home"
+banner_image: "/assets/images/blue-digital-background.jpg"
+permalink: "/"
 ---
 
 <hr />
