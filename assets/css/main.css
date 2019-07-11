@@ -15,3 +15,11 @@
 .uk-nav > li > a:hover {
   color: red;
 }
+
+
+/*
+ * BANNER
+ */
+#banner-image {
+  background: #673AB7;
+}
