@@ -6,4 +6,7 @@ layout: home
 title: "Home"
 ---
 
-Test
+
+<hr />
+<h2>Recent Blogs</h2>
+{% include posts.html %}
