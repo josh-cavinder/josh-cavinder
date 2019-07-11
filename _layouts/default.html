@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   {% include head.html %}
-  <body class="uk-background-muted">
+  <body class="uk-background-muted {{ 'page-' | append: page.title | downcase | replace: ' ','-' | remove: '!' | remove: '.' | remove: '#' }}">
     {% include header.html %}
     {% include banner.html %}
     <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
