@@ -26,7 +26,7 @@
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
 </head>
 
-  <body class="uk-background-muted">
+  <body class="uk-background-muted page-contact">
     <header>
   <div uk-sticky class="uk-background-white uk-box-shadow-small">
     <div class="uk-container">
@@ -70,7 +70,6 @@
       </li>
     </ul>
   </div>
-
 </nav>
 
     </div>
@@ -85,15 +84,25 @@
       <div uk-grid>
         <div class="uk-width-expand uk-margin-top">
           <h1>Contact</h1>
-<p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+<form action="https://formspree.io/joshcavider@gmail.com" method="POST">
+  <fieldset class="uk-fieldset uk-width-xlarge">
+    <div class="uk-margin">
+      <input class="uk-input" type="text" placeholder="Name" name="name" />
+    </div>
 
-<p>You can find the source code for Minima at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/minima">minima</a></p>
+    <div class="uk-margin">
+      <input class="uk-input" type="email" placeholder="Email" name="email" />
+    </div>
 
-<p>You can find the source code for Jekyll at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+    <div class="uk-margin">
+      <textarea class="uk-textarea" rows="5" placeholder="Message" name="message"></textarea>
+    </div>
+
+    <div class="uk-margin">
+      <input type="submit" value="Submit" class="uk-button uk-button-primary" />
+    </div>
+  </fieldset>
+</form>
 
 
 
