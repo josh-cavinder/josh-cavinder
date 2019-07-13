@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: "Welcome to Jekyll!"
 featured_image: ""
-date:   2019-07-09 17:56:10 +0000
-tags: 
+date: 2019-07-09 17:56:10 +0000
+tags:
 - jekyll
 - draft
 ---

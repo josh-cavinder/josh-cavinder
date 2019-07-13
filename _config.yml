@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Social Media
-github_username:  josh-cavinder
+github_username: josh-cavinder
 
 
 # Build settings
@@ -45,10 +45,6 @@ defaults:
     values:
       layout: "post"
       permalink: :year/:month/:day/:title
-
-
-# Custom Variables
-
 
 
 # Exclude from processing.

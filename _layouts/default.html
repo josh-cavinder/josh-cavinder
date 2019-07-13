@@ -3,6 +3,7 @@
   {% include head.html %}
   <body class="uk-background-muted {{ 'page-' | append: page.title | downcase | replace: ' ','-' | remove: '!' | remove: '.' | remove: '#' }}">
     {% include header.html %}
+    {% include offcanvas.html %}
     {% include banner.html %}
     <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
       <div uk-grid>
@@ -12,7 +13,6 @@
       </div>
     </div>
     {% include footer.html %}
-    {% include offcanvas.html %}
     {% include scripts.html %}
   </body>
 </html>
