@@ -1,16 +1,13 @@
 {% if page.banner_image %}
-  {%- if page.permalink == 'home' -%}
-  <div data-src="{{ page.banner_image }}" id="banner-image" class="uk-height-medium" uk-img>
+  {%- if page.permalink == '/' -%}
+  <div data-src="{{ page.banner_image }}" id="banner-image" uk-height-viewport uk-img>
     <div class="uk-container">
-      <h1>Hello, World!</h1>
-      <h2>{{ site.tagline }}</h2>
+      <p>Hey! I'm Josh Cavinder.<br />
+      I'm a full-stack web developer.</p>
     </div>
   </div>
 
   {%- else -%}
     <div data-src="{{ page.banner_image }}" id="banner-image" class="uk-height-medium" uk-img></div>
   {%- endif -%}
-
-{% else if page.featured_image %}
-  <div data-src="{{ page.featured_image }}" id="banner-image" class="uk-height-medium" uk-img></div>
 {% endif %}
