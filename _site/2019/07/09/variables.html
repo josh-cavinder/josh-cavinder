@@ -27,14 +27,10 @@
 </head>
 
   <body class="uk-background-muted page-variables">
-    <header>
-  <div uk-sticky class="uk-background-white uk-box-shadow-small">
+    <header uk-sticky>
+  <div class="uk-background-default uk-box-shadow-small">
     <div class="uk-container">
       <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-  <div class="uk-navbar-left">
-    <a class="uk-logo uk-flex" href="/">
-    </a>
-  </div>
   <div class="uk-navbar-right">
     <ul class="uk-navbar-nav uk-visible@m">
       
@@ -66,7 +62,7 @@
     </ul>
     <ul class="uk-hidden@m uk-navbar-nav">
       <li>
-        <a href="#offcanvas" uk-toggle>Menu&nbsp;<i class="fal fa-bars"></i></a>
+        <a href="#offcanvas" uk-toggle>Menu&nbsp;<i class="fas fa-bars"></i></a>
       </li>
     </ul>
   </div>
@@ -75,35 +71,6 @@
     </div>
   </div>
 </header>
-
-    
-  <div data-src="" id="banner-image" class="uk-height-medium" uk-img></div>
-
-
-    <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
-      <div uk-grid>
-        <div class="uk-width-expand uk-margin-top">
-          <p>You can use the below variables to pull from numerous sources within the site:
-<br /><br />
-<code class="highlighter-rouge">layout.title</code> =&gt; will pull <strong>front matter</strong> variables from layout files.<br />
-<code class="highlighter-rouge">page.title</code> =&gt; will pull <strong>front matter</strong> variables from your actual pages.<br />
-<code class="highlighter-rouge">site.title</code> =&gt; will pull variables from the <code class="highlighter-rouge">_config.yml</code> file.
-<br /><br />
-These can be referenced from pretty much <em>anywhere</em>.
-<br /><br />
-More info can be found <a href="https://jekyllrb.com/docs/variables/">here</a>!</p>
-
-
-        </div>
-      </div>
-    </div>
-    <footer class="uk-background-secondary">
-  <div class="uk-container">
-    <div class="uk-text-small uk-text-center uk-padding-small">
-      <p class="uk-margin-remove">&copy; 2019 - Josh Cavinder's Portfolio</p>
-    </div>
-  </div>
-</footer>
 
     <div id="offcanvas" uk-offcanvas>
   <div class="uk-offcanvas-bar">
@@ -144,6 +111,33 @@ More info can be found <a href="https://jekyllrb.com/docs/variables/">here</a>!<
     </div>
   </div>
 </div>
+
+    
+
+    <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
+      <div uk-grid>
+        <div class="uk-width-expand uk-margin-top">
+          <p>You can use the below variables to pull from numerous sources within the site:
+<br /><br />
+<code class="highlighter-rouge">layout.title</code> =&gt; will pull <strong>front matter</strong> variables from layout files.<br />
+<code class="highlighter-rouge">page.title</code> =&gt; will pull <strong>front matter</strong> variables from your actual pages.<br />
+<code class="highlighter-rouge">site.title</code> =&gt; will pull variables from the <code class="highlighter-rouge">_config.yml</code> file.
+<br /><br />
+These can be referenced from pretty much <em>anywhere</em>.
+<br /><br />
+More info can be found <a href="https://jekyllrb.com/docs/variables/">here</a>!</p>
+
+
+        </div>
+      </div>
+    </div>
+    <footer class="uk-background-secondary">
+  <div class="uk-container">
+    <div class="uk-text-small uk-text-center uk-padding-small">
+      <p class="uk-margin-remove">&copy; 2019 - Josh Cavinder's Portfolio</p>
+    </div>
+  </div>
+</footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js" charset="utf-8"></script>

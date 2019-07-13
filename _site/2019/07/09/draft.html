@@ -27,14 +27,10 @@
 </head>
 
   <body class="uk-background-muted page-draft-pages">
-    <header>
-  <div uk-sticky class="uk-background-white uk-box-shadow-small">
+    <header uk-sticky>
+  <div class="uk-background-default uk-box-shadow-small">
     <div class="uk-container">
       <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-  <div class="uk-navbar-left">
-    <a class="uk-logo uk-flex" href="/">
-    </a>
-  </div>
   <div class="uk-navbar-right">
     <ul class="uk-navbar-nav uk-visible@m">
       
@@ -66,7 +62,7 @@
     </ul>
     <ul class="uk-hidden@m uk-navbar-nav">
       <li>
-        <a href="#offcanvas" uk-toggle>Menu&nbsp;<i class="fal fa-bars"></i></a>
+        <a href="#offcanvas" uk-toggle>Menu&nbsp;<i class="fas fa-bars"></i></a>
       </li>
     </ul>
   </div>
@@ -75,31 +71,6 @@
     </div>
   </div>
 </header>
-
-    
-  <div data-src="" id="banner-image" class="uk-height-medium" uk-img></div>
-
-
-    <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
-      <div uk-grid>
-        <div class="uk-width-expand uk-margin-top">
-          <p>Drafts will be hidden by default, and are particularly useful when you’re writing content that may not be finished, and you’d like to to store it somewhere on the site in the interim.
-<br /><br />
-If you’d like to make your draft content viewable on the site ( while it’s still in the <code class="highlighter-rouge">_drafts</code> folder ), you can do so by running the below command:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jekyll serve <span class="nt">--draft</span>
-</code></pre></div></div>
-
-
-        </div>
-      </div>
-    </div>
-    <footer class="uk-background-secondary">
-  <div class="uk-container">
-    <div class="uk-text-small uk-text-center uk-padding-small">
-      <p class="uk-margin-remove">&copy; 2019 - Josh Cavinder's Portfolio</p>
-    </div>
-  </div>
-</footer>
 
     <div id="offcanvas" uk-offcanvas>
   <div class="uk-offcanvas-bar">
@@ -140,6 +111,29 @@ If you’d like to make your draft content viewable on the site ( while it’s s
     </div>
   </div>
 </div>
+
+    
+
+    <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
+      <div uk-grid>
+        <div class="uk-width-expand uk-margin-top">
+          <p>Drafts will be hidden by default, and are particularly useful when you’re writing content that may not be finished, and you’d like to to store it somewhere on the site in the interim.
+<br /><br />
+If you’d like to make your draft content viewable on the site ( while it’s still in the <code class="highlighter-rouge">_drafts</code> folder ), you can do so by running the below command:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jekyll serve <span class="nt">--draft</span>
+</code></pre></div></div>
+
+
+        </div>
+      </div>
+    </div>
+    <footer class="uk-background-secondary">
+  <div class="uk-container">
+    <div class="uk-text-small uk-text-center uk-padding-small">
+      <p class="uk-margin-remove">&copy; 2019 - Josh Cavinder's Portfolio</p>
+    </div>
+  </div>
+</footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js" charset="utf-8"></script>

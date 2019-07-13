@@ -27,14 +27,10 @@
 </head>
 
   <body class="uk-background-muted page-portfolio">
-    <header>
-  <div uk-sticky class="uk-background-white uk-box-shadow-small">
+    <header uk-sticky>
+  <div class="uk-background-default uk-box-shadow-small">
     <div class="uk-container">
       <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-  <div class="uk-navbar-left">
-    <a class="uk-logo uk-flex" href="/">
-    </a>
-  </div>
   <div class="uk-navbar-right">
     <ul class="uk-navbar-nav uk-visible@m">
       
@@ -66,7 +62,7 @@
     </ul>
     <ul class="uk-hidden@m uk-navbar-nav">
       <li>
-        <a href="#offcanvas" uk-toggle>Menu&nbsp;<i class="fal fa-bars"></i></a>
+        <a href="#offcanvas" uk-toggle>Menu&nbsp;<i class="fas fa-bars"></i></a>
       </li>
     </ul>
   </div>
@@ -76,9 +72,47 @@
   </div>
 </header>
 
-    
-  <div data-src="" id="banner-image" class="uk-height-medium" uk-img></div>
+    <div id="offcanvas" uk-offcanvas>
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <ul class="uk-nav uk-nav-default uk-margin-top">
+      
+  <li class="">
+    <a class="" href="/" >Home</a>
+  </li>
 
+  <li class="">
+    <a class="" href="/about/" >About</a>
+  </li>
+
+  <li class="active">
+    <a class="" href="/portfolio/" >Portfolio</a>
+  </li>
+
+  <li class="">
+    <a class="" href="/blog/" >Blog</a>
+  </li>
+
+  <li class="">
+    <a class="" href="/contact/" >Contact</a>
+  </li>
+
+  <li class="">
+    <a class="" href="/resume/" target='_blank'>Resume</a>
+  </li>
+
+
+    </ul>
+    <hr class="uk-hidden@s">
+    <div class="uk-hidden@s uk-flex uk-flex-wrap uk-flex-center">
+      <p class="uk-link-text uk-text-center">
+        josh-cavinder.com
+      </p>
+    </div>
+  </div>
+</div>
+
+    
 
     <div class="uk-container uk-position-relative uk-margin-top uk-margin-bottom">
       <div uk-grid>
@@ -127,46 +161,6 @@
     </div>
   </div>
 </footer>
-
-    <div id="offcanvas" uk-offcanvas>
-  <div class="uk-offcanvas-bar">
-    <button class="uk-offcanvas-close" type="button" uk-close></button>
-    <ul class="uk-nav uk-nav-default uk-margin-top">
-      
-  <li class="">
-    <a class="" href="/" >Home</a>
-  </li>
-
-  <li class="">
-    <a class="" href="/about/" >About</a>
-  </li>
-
-  <li class="active">
-    <a class="" href="/portfolio/" >Portfolio</a>
-  </li>
-
-  <li class="">
-    <a class="" href="/blog/" >Blog</a>
-  </li>
-
-  <li class="">
-    <a class="" href="/contact/" >Contact</a>
-  </li>
-
-  <li class="">
-    <a class="" href="/resume/" target='_blank'>Resume</a>
-  </li>
-
-
-    </ul>
-    <hr class="uk-hidden@s">
-    <div class="uk-hidden@s uk-flex uk-flex-wrap uk-flex-center">
-      <p class="uk-link-text uk-text-center">
-        josh-cavinder.com
-      </p>
-    </div>
-  </div>
-</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js" charset="utf-8"></script>
