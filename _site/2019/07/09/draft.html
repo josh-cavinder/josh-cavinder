@@ -26,6 +26,15 @@
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
 </head>
 
+  <!-- Prevent FOUC (flash of unstyled content) - http://johnpolacek.com/2012/10/03/help-prevent-fouc/ -->
+<style type="text/css">
+  .no-fouc {display: none;}
+</style>
+
+<script type="text/javascript">
+  document.documentElement.className = 'no-fouc';
+</script>
+
   <body class="uk-background-muted page-draft-pages">
     <header uk-sticky>
   <div class="uk-background-default uk-box-shadow-small">
@@ -137,6 +146,7 @@ If you’d like to make your draft content viewable on the site ( while it’s s
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="/assets/js/main.js" charset="utf-8"></script>
 
   </body>
