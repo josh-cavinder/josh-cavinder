@@ -2,7 +2,7 @@
 layout: post
 title:  "Drupal 8: Getting a New Site Started"
 featured_image: ""
-date: 2019-07-09 17:56:10 +0000
+date: 2019-07-13 12:56:10 +0000
 tags:
 - jekyll
 - draft
