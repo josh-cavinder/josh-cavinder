@@ -48,3 +48,18 @@ html {
 #banner-image {
   background-color: #673AB7;
 }
+
+
+
+/*
+ * POST TEASERS
+ */
+.post--image-zoom {
+  background-image: url('http://localhost:4000/assets/images/blue-digital-background.jpg');
+  background-size: 100% 100%;
+  transition: all 1.5s ease;
+  background-position: center center;
+}
+.post--image-zoom:hover {
+  background-size: 150% 150%;
+}
