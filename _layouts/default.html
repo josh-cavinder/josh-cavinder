@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   {% include head.html %}
+  {% include fouc.html %}
   <body class="uk-background-muted {{ 'page-' | append: page.title | downcase | replace: ' ','-' | remove: '!' | remove: '.' | remove: '#' }}">
     {% include header.html %}
     {% include offcanvas.html %}
