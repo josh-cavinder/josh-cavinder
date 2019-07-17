@@ -12,3 +12,5 @@ permalink: "/"
 
 <h2>Recent Blogs</h2>
 {% include posts.html %}
+
+{% include portfolio.html %}
