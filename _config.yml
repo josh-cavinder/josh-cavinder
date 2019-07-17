@@ -39,12 +39,14 @@ plugins:
 
 # Overwrites
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
+    posts:
       layout: "post"
-      permalink: :year/:month/:day/:title
+      type: "posts"
+      permalink: /post/:year/:month/:day/:title
+    portfolio:
+      layout: ""
+      type: "portfolio"
+      permalink: /portfolio/:name
 
 
 # Exclude from processing.
