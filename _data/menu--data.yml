@@ -15,6 +15,6 @@ menu:
     url: "/contact/"
     weight: 4
   - title: Resume
-    url: "/resume/"
+    url: "/assets/files/Josh-Cavinder-Resume.pdf"
     weight: 5
     attribute: "target='_blank'"
